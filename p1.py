@@ -18,12 +18,8 @@ def create_phonebook(phonebook_name):
 
 
 def add_entry(first_name, last_name, number, city_name):
-    """Add a new name and number to the given phonebook.
-    Args:
-        name (str): name of the entry to add
-        number (str): phone number of the entry to add
-        phonebook_name (str): name of the phonebook
-    """
+    #Add a new name and number to the given phonebook.
+   
     user_details = [[first_name, last_name, number, city_name]]
     filename = 'phone_dataset.csv'
     with open(filename, 'a') as f:
@@ -32,11 +28,8 @@ def add_entry(first_name, last_name, number, city_name):
         print("user details added....")
 
 def lookup_name():
-    """Look up an entry by name in the given phonebook.
-    Args:
-        name (str): name to look up
-        phonebook_name (str): name of the phonebook
-    """
+    #Look up an entry by name in the given phonebook.
+    
     lastname = list()
     query = 'query.csv'
     with open(query, 'r') as q:
@@ -49,10 +42,6 @@ def lookup_name():
         readfile = csv.reader(f)
         data = list(readfile)
         length = len(data)
-
-    
-        
-
 
     for i in range(querylength):
         print("matches for :"+querydata[i][0])
