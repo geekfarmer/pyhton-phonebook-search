@@ -7,9 +7,11 @@
 4. query result stored in result.csv file
 
 ### create new dictionary
+
 '''python
-python p1.py create [dictionary_name] # without .csv extension
+python p1.py create [dictionary_name]    # without .csv extension
 '''
+
 ![alt text](https://github.com/geekfarmer/pyhton-phonebook-search/blob/master/filecreated.png "file created")
 
 If entered filename is already exists then 
