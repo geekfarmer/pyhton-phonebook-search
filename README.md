@@ -19,7 +19,7 @@ If entered filename is already exists then
 
 ### Add user details 
 
-add user's first_name, last_name, number, city, like bewoe image
+add user's first_name, last_name, number, city, like below image
 
 ![alt text](https://github.com/geekfarmer/pyhton-phonebook-search/blob/master/add.png "add user_details")
 
