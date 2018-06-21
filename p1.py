@@ -2,21 +2,6 @@ import os
 import sys
 import csv
 
-""" 
-created by "geekfarmer" at 22/06/2018
-"""
-
-class ArgumentError(Exception): pass
-
-
-class NoFileError(Exception): pass
-
-
-class NoEntryError(Exception): pass
-
-
-class DuplicateError(Exception): pass
-
 
 def create_phonebook(phonebook_name):
     """Create a new phonebook.
