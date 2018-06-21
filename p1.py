@@ -19,7 +19,7 @@ def create_phonebook(phonebook_name):
 
 def add_entry(first_name, last_name, number, city_name):
     #Add a new name and number to the given phonebook.
-   
+    
     user_details = [[first_name, last_name, number, city_name]]
     filename = 'phone_dataset.csv'
     with open(filename, 'a') as f:
@@ -29,7 +29,7 @@ def add_entry(first_name, last_name, number, city_name):
 
 def lookup_name():
     #Look up an entry by name in the given phonebook.
-    
+   
     lastname = list()
     query = 'query.csv'
     with open(query, 'r') as q:
