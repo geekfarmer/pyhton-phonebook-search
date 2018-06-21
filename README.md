@@ -1,4 +1,4 @@
-# pyhton-phonebook-search
+# python-phonebook-search
 
 ## Features:
 1. Create new dictionary
